@@ -29,3 +29,6 @@ jobs:
 - Actions Runner Controller on EKS
 - Ephemeral runners for security
 - Scale-to-zero between jobs
+
+## Updated: best practices
+- Note added 2025-12-14
