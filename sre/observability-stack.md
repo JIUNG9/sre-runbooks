@@ -17,3 +17,6 @@ Traces → OpenTelemetry → SigNoz → latency debugging
 1. Service overview (RED metrics)
 2. Infrastructure (node CPU/mem/disk)
 3. SLO burn rate
+
+## Updated: real-world examples
+- Note added 2025-12-14
