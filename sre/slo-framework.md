@@ -18,3 +18,6 @@ SLI (indicator) → SLO (objective) → SLA (agreement)
 Error budget = 1 - SLO target
 99.9% SLO → 0.1% error budget → 43.8 min/month
 ```
+
+## Updated: production patterns
+- Note added 2025-12-20
