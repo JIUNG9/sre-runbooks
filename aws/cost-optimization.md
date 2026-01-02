@@ -14,3 +14,6 @@
 - EC2 RI for stable baseline
 - RDS RI for production databases
 - 1-year no-upfront for flexibility
+
+## Updated: security hardening
+- Note added 2026-01-02
