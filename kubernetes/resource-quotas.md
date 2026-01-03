@@ -19,3 +19,6 @@ spec:
 ## LimitRange for defaults
 
 Always set default limits to prevent OOMKill cascades.
+
+## Updated: real-world examples
+- Note added 2026-01-03
