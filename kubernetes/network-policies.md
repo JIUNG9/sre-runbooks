@@ -17,3 +17,6 @@ spec:
 
 - Default deny egress blocks all outbound traffic
 - Combine with DNS allow for practical use
+
+## Updated: best practices
+- Note added 2026-01-11
