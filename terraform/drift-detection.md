@@ -19,3 +19,6 @@ fi
 ## Prevention
 - SCP to deny console access to IaC-managed resources
 - Nightly plan cron job
+
+## Updated: performance tuning
+- Note added 2026-01-13
