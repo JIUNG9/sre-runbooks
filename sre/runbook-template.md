@@ -1,0 +1,25 @@
+# Runbook Template
+
+## {{SERVICE_NAME}} - {{ALERT_NAME}}
+
+### Overview
+- What this alert means
+- Expected impact
+- SLO affected
+
+### Diagnosis
+```bash
+# Step 1: Check service health
+kubectl get pods -n {{namespace}} -l app={{service}}
+
+# Step 2: Recent logs
+kubectl logs -n {{namespace}} -l app={{service}} --since=15m
+
+# Step 3: Check dependencies
+curl -s http://{{service}}/health | jq
+```
+
+### Mitigation
+1. Scale up: `kubectl scale deployment/{{service}} --replicas=5`
+2. Restart: `kubectl rollout restart deployment/{{service}}`
+3. Rollback: `kubectl rollout undo deployment/{{service}}`
