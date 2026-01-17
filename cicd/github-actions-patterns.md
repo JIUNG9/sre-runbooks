@@ -32,3 +32,6 @@ jobs:
 
 ## Updated: best practices
 - Note added 2025-12-14
+
+## Updated: best practices
+- Note added 2026-01-17
