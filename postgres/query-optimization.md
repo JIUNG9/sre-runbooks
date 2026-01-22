@@ -18,3 +18,6 @@ AND status = 'pending';
 ALTER TABLE orders ALTER COLUMN status SET STATISTICS 1000;
 ANALYZE orders;
 ```
+
+## Updated: monitoring tips
+- Note added 2026-01-22
