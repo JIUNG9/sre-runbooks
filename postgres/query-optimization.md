@@ -21,3 +21,6 @@ ANALYZE orders;
 
 ## Updated: monitoring tips
 - Note added 2026-01-22
+
+## Updated: production patterns
+- Note added 2026-01-25
