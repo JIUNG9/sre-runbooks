@@ -20,3 +20,6 @@ SELECT pg_database_size(current_database());
 ANALYZE VERBOSE;  -- update statistics
 REINDEX DATABASE current_database;  -- rebuild indexes
 ```
+
+## Updated: monitoring tips
+- Note added 2026-01-27
