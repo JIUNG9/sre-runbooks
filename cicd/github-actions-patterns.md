@@ -35,3 +35,6 @@ jobs:
 
 ## Updated: best practices
 - Note added 2026-01-17
+
+## Updated: performance tuning
+- Note added 2026-01-29
