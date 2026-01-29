@@ -20,3 +20,6 @@ module "eks" {
 - Use git tags for internal modules
 - Pin to exact versions in production
 - `source = "git::https://github.com/org/module.git?ref=v1.2.3"`
+
+## Updated: monitoring tips
+- Note added 2026-01-29
