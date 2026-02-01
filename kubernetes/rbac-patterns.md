@@ -17,3 +17,6 @@ rules:
 - ClusterRole + RoleBinding = namespace-scoped cluster role
 - ClusterRole + ClusterRoleBinding = cluster-wide
 - Avoid wildcard verbs in production
+
+## Updated: production patterns
+- Note added 2026-02-01
