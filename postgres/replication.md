@@ -19,3 +19,6 @@ SELECT pg_is_in_recovery(),
 - Per-table granularity
 - Useful for major version upgrades
 - Does NOT replicate DDL
+
+## Updated: performance tuning
+- Note added 2026-02-01
