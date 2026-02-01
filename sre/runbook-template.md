@@ -23,3 +23,6 @@ curl -s http://{{service}}/health | jq
 1. Scale up: `kubectl scale deployment/{{service}} --replicas=5`
 2. Restart: `kubectl rollout restart deployment/{{service}}`
 3. Rollback: `kubectl rollout undo deployment/{{service}}`
+
+## Updated: production patterns
+- Note added 2026-02-01
