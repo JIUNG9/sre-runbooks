@@ -15,3 +15,6 @@ etcdctl snapshot status /backup/etcd-*.db --write-out=table
 - etcd_server_has_leader
 - etcd_disk_backend_commit_duration_seconds
 - etcd_network_peer_round_trip_time_seconds
+
+## Updated: real-world examples
+- Note added 2026-02-03
