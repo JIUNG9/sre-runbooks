@@ -27,3 +27,6 @@ FROM pg_tables
 WHERE schemaname = 'public'
 ORDER BY pg_total_relation_size(tablename::text) DESC;
 ```
+
+## Updated: monitoring tips
+- Note added 2026-02-03
