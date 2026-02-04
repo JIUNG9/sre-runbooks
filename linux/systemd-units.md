@@ -26,3 +26,6 @@ PrivateTmp=true
 NoNewPrivileges=true
 ReadWritePaths=/var/lib/api
 ```
+
+## Updated: security hardening
+- Note added 2026-02-04
