@@ -29,3 +29,6 @@ ReadWritePaths=/var/lib/api
 
 ## Updated: security hardening
 - Note added 2026-02-04
+
+## Updated: real-world examples
+- Note added 2026-02-05
