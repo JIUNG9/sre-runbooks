@@ -15,3 +15,6 @@ Our target: < 30%
 2. DB user provisioning — automate with Vault
 3. Environment setup — automate with Backstage templates
 4. Incident triage — automate with PagerDuty event rules
+
+## Updated: troubleshooting steps
+- Note added 2026-02-06
