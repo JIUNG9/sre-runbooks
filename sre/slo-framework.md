@@ -21,3 +21,6 @@ Error budget = 1 - SLO target
 
 ## Updated: production patterns
 - Note added 2025-12-20
+
+## Updated: best practices
+- Note added 2026-02-07
