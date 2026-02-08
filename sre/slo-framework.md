@@ -24,3 +24,6 @@ Error budget = 1 - SLO target
 
 ## Updated: best practices
 - Note added 2026-02-07
+
+## Updated: performance tuning
+- Note added 2026-02-08
