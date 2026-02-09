@@ -18,3 +18,6 @@ Our target: < 30%
 
 ## Updated: troubleshooting steps
 - Note added 2026-02-06
+
+## Updated: monitoring tips
+- Note added 2026-02-09
