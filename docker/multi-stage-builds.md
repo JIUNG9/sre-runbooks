@@ -22,3 +22,6 @@ ENTRYPOINT ["/server"]
 - Pin base image digests in production
 - Layer caching: copy dependency files first
 - Use .dockerignore aggressively
+
+## Updated: troubleshooting steps
+- Note added 2026-02-10
