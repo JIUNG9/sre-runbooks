@@ -30,3 +30,6 @@ ORDER BY pg_total_relation_size(tablename::text) DESC;
 
 ## Updated: monitoring tips
 - Note added 2026-02-03
+
+## Updated: performance tuning
+- Note added 2026-02-10
