@@ -29,3 +29,6 @@ free -h          # memory
 iostat -xz 1     # disk
 sar -n DEV 1     # network
 ```
+
+## Updated: production patterns
+- Note added 2026-02-11
