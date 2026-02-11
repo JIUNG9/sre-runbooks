@@ -18,3 +18,6 @@ etcdctl snapshot status /backup/etcd-*.db --write-out=table
 
 ## Updated: real-world examples
 - Note added 2026-02-03
+
+## Updated: monitoring tips
+- Note added 2026-02-11
