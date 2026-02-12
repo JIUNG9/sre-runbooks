@@ -14,3 +14,6 @@
 - Use GitHub environment protection rules
 - Rotate secrets quarterly
 - Audit with `gh secret list`
+
+## Updated: monitoring tips
+- Note added 2026-02-13
