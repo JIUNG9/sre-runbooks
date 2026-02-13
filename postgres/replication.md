@@ -22,3 +22,6 @@ SELECT pg_is_in_recovery(),
 
 ## Updated: performance tuning
 - Note added 2026-02-01
+
+## Updated: best practices
+- Note added 2026-02-13
