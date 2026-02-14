@@ -32,3 +32,6 @@ spec:
 
 ## Updated: real-world examples
 - Note added 2026-02-09
+
+## Updated: security hardening
+- Note added 2026-02-14
