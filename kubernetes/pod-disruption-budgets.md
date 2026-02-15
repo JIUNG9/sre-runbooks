@@ -18,3 +18,6 @@ Key points:
 - PDBs only affect voluntary disruptions (drain, rolling update)
 - involuntary disruptions (node crash) are not affected
 - maxUnavailable vs minAvailable - pick one
+
+## Updated: troubleshooting steps
+- Note added 2026-02-15
