@@ -23,3 +23,6 @@ variable "instance_type" {
   }
 }
 ```
+
+## Updated: troubleshooting steps
+- Note added 2026-02-15
