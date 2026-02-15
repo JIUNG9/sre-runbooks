@@ -35,3 +35,6 @@ spec:
 
 ## Updated: security hardening
 - Note added 2026-02-14
+
+## Updated: troubleshooting steps
+- Note added 2026-02-15
