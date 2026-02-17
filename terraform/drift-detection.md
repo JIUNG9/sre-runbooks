@@ -22,3 +22,6 @@ fi
 
 ## Updated: performance tuning
 - Note added 2026-01-13
+
+## Updated: production patterns
+- Note added 2026-02-17
