@@ -23,3 +23,6 @@ REINDEX DATABASE current_database;  -- rebuild indexes
 
 ## Updated: monitoring tips
 - Note added 2026-01-27
+
+## Updated: monitoring tips
+- Note added 2026-02-20
