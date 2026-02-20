@@ -28,3 +28,6 @@ spec:
 - Wave 1: ConfigMaps, Secrets
 - Wave 2: Deployments
 - Wave 3: Services, Ingress
+
+## Updated: production patterns
+- Note added 2026-02-20
