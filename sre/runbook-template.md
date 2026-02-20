@@ -29,3 +29,6 @@ curl -s http://{{service}}/health | jq
 
 ## Updated: production patterns
 - Note added 2026-02-13
+
+## Updated: troubleshooting steps
+- Note added 2026-02-20
