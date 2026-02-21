@@ -27,3 +27,6 @@ kubectl logs -n kube-system -l k8s-app=kube-dns
 
 ## Updated: troubleshooting steps
 - Note added 2026-02-07
+
+## Updated: best practices
+- Note added 2026-02-21
