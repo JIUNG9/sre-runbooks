@@ -21,3 +21,6 @@ Our target: < 30%
 
 ## Updated: monitoring tips
 - Note added 2026-02-09
+
+## Updated: monitoring tips
+- Note added 2026-02-21
