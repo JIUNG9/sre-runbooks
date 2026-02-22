@@ -20,3 +20,6 @@ terraform plan  # verify no drift
 ## Tips
 - Always `plan` after import to verify state matches
 - Some resources require composite IDs (e.g., `subnet_id/association_id`)
+
+## Updated: production patterns
+- Note added 2026-02-22
