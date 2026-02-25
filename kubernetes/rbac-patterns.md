@@ -20,3 +20,6 @@ rules:
 
 ## Updated: production patterns
 - Note added 2026-02-01
+
+## Updated: real-world examples
+- Note added 2026-02-25
