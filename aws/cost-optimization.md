@@ -20,3 +20,6 @@
 
 ## Updated: security hardening
 - Note added 2026-02-02
+
+## Updated: troubleshooting steps
+- Note added 2026-02-26
