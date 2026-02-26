@@ -17,3 +17,6 @@
 
 ## MTTR breakdown
 MTTR = MTTD + MTTE + MTTF + MTTV
+
+## Updated: performance tuning
+- Note added 2026-02-26
