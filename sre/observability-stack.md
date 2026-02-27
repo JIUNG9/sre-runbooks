@@ -44,3 +44,6 @@ Traces → OpenTelemetry → SigNoz → latency debugging
 
 ## Updated: production patterns
 - Note added 2026-02-07
+
+## Updated: real-world examples
+- Note added 2026-02-27
