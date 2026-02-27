@@ -19,3 +19,6 @@ No more DynamoDB lock table needed since Terraform 1.10.
 - Per-environment state files
 - Per-service state files
 - Use `terraform_remote_state` data source sparingly
+
+## Updated: monitoring tips
+- Note added 2026-02-27
