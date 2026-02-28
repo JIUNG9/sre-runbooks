@@ -17,3 +17,6 @@
 
 ## Updated: monitoring tips
 - Note added 2026-02-13
+
+## Updated: monitoring tips
+- Note added 2026-02-28
