@@ -22,3 +22,6 @@ No more DynamoDB lock table needed since Terraform 1.10.
 
 ## Updated: monitoring tips
 - Note added 2026-02-27
+
+## Updated: real-world examples
+- Note added 2026-02-28
