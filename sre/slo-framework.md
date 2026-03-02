@@ -27,3 +27,6 @@ Error budget = 1 - SLO target
 
 ## Updated: performance tuning
 - Note added 2026-02-08
+
+## add troubleshooting tip
+- Updated 2026-03-02
