@@ -32,3 +32,6 @@ curl -s http://{{service}}/health | jq
 
 ## Updated: troubleshooting steps
 - Note added 2026-02-20
+
+## Updated: performance tuning
+- Note added 2026-03-04
