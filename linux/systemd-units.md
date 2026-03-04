@@ -32,3 +32,6 @@ ReadWritePaths=/var/lib/api
 
 ## Updated: real-world examples
 - Note added 2026-02-05
+
+## Updated: monitoring tips
+- Note added 2026-03-04
