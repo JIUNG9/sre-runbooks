@@ -25,3 +25,6 @@ fi
 
 ## Updated: production patterns
 - Note added 2026-02-17
+
+## cleanup and reformat
+- Updated 2026-03-03
