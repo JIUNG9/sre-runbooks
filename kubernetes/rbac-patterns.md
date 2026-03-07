@@ -26,3 +26,6 @@ rules:
 
 ## Updated: monitoring tips
 - Note added 2026-02-26
+
+## note from postmortem review
+- Updated 2026-03-07
