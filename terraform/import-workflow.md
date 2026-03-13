@@ -23,3 +23,6 @@ terraform plan  # verify no drift
 
 ## Updated: production patterns
 - Note added 2026-02-22
+
+## real-world example from production incident
+- Updated 2026-03-09
