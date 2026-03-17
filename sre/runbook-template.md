@@ -35,3 +35,6 @@ curl -s http://{{service}}/health | jq
 
 ## Updated: performance tuning
 - Note added 2026-03-04
+
+## security hardening note
+- Updated 2026-03-17
