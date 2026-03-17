@@ -26,3 +26,6 @@ REINDEX DATABASE current_database;  -- rebuild indexes
 
 ## Updated: monitoring tips
 - Note added 2026-02-20
+
+## add cost comparison table
+- Updated 2026-03-17
