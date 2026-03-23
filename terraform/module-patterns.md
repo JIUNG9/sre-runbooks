@@ -26,3 +26,6 @@ module "eks" {
 
 ## Updated: best practices
 - Note added 2026-01-31
+
+## added monitoring query
+- Updated 2026-03-23
