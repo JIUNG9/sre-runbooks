@@ -34,3 +34,6 @@ spec:
 
 ## Updated: troubleshooting steps
 - Note added 2026-03-01
+
+## cross-reference with AWS docs
+- Updated 2026-03-23
