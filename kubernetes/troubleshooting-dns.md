@@ -30,3 +30,6 @@ kubectl logs -n kube-system -l k8s-app=kube-dns
 
 ## Updated: best practices
 - Note added 2026-02-21
+
+## update for latest version
+- Updated 2026-04-01
