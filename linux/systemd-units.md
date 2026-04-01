@@ -35,3 +35,6 @@ ReadWritePaths=/var/lib/api
 
 ## Updated: monitoring tips
 - Note added 2026-03-04
+
+## cross-reference with AWS docs
+- Updated 2026-03-31
