@@ -24,3 +24,6 @@ spec:
 - Lambda function triggered by Secrets Manager rotation
 - RDS auto-rotation for managed credentials
 - ESO auto-refreshes K8s secrets
+
+## update for latest version
+- Updated 2026-04-06
