@@ -32,3 +32,6 @@ sar -n DEV 1     # network
 
 ## Updated: production patterns
 - Note added 2026-02-11
+
+## update for latest version
+- Updated 2026-04-11
