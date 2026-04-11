@@ -15,3 +15,6 @@ grype myapp:latest
 3. Drop all capabilities: `--cap-drop=ALL`
 4. No new privileges: `--security-opt=no-new-privileges`
 5. Resource limits: `--memory=512m --cpus=0.5`
+
+## update for latest version
+- Updated 2026-04-11
