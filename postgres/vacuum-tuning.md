@@ -36,3 +36,6 @@ ORDER BY pg_total_relation_size(tablename::text) DESC;
 
 ## Updated: security hardening
 - Note added 2026-03-01
+
+## security hardening note
+- Updated 2026-04-07
