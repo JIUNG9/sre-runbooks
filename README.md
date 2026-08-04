@@ -1,6 +1,10 @@
-# sre-lab
+# sre-runbooks
 
-Personal lab notes and reference materials for SRE/DevOps/Platform Engineering.
+Runbooks and reference notes for SRE/DevOps/Platform Engineering — the things worth
+writing down after you've debugged them once.
+
+Renamed from `sre-lab` on 2026-08-04. GitHub redirects the old URL, so existing links
+still work.
 
 ## Topics
 
