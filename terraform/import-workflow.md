@@ -12,17 +12,13 @@ import {
 Then: `terraform plan -generate-config-out=generated.tf`
 
 ## Manual import
+
 ```bash
 terraform import aws_instance.web i-0123456789abcdef0
 terraform plan  # verify no drift
 ```
 
 ## Tips
+
 - Always `plan` after import to verify state matches
 - Some resources require composite IDs (e.g., `subnet_id/association_id`)
-
-## Updated: production patterns
-- Note added 2026-02-22
-
-## real-world example from production incident
-- Updated 2026-03-09

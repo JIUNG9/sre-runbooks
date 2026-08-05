@@ -27,14 +27,6 @@ spec:
 ```
 
 ## Custom metrics
+
 - KEDA for event-driven scaling
 - Prometheus adapter for custom metric HPA
-
-## Updated: real-world examples
-- Note added 2026-02-09
-
-## Updated: security hardening
-- Note added 2026-02-14
-
-## Updated: troubleshooting steps
-- Note added 2026-02-15

@@ -1,6 +1,7 @@
 # systemd Unit Patterns
 
 ## Service with restart
+
 ```ini
 [Unit]
 Description=API Server
@@ -19,6 +20,7 @@ WantedBy=multi-user.target
 ```
 
 ## Hardening
+
 ```ini
 ProtectSystem=strict
 ProtectHome=true
@@ -26,15 +28,3 @@ PrivateTmp=true
 NoNewPrivileges=true
 ReadWritePaths=/var/lib/api
 ```
-
-## Updated: security hardening
-- Note added 2026-02-04
-
-## Updated: real-world examples
-- Note added 2026-02-05
-
-## Updated: monitoring tips
-- Note added 2026-03-04
-
-## cross-reference with AWS docs
-- Updated 2026-03-31

@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: '**/*.md'
+
+# Deliberately no external link checker. Every URL in this repo today is an
+# illustrative placeholder — {{service}}, github.com/org/module, etcd-0:2379 — so a
+# link check would pass only by excluding everything it was meant to check, which is
+# worse than not running it. Add one once these runbooks cite real references: at
+# that point a dead link is a genuine hazard, because someone follows a runbook at
+# 3am and lands on a 404.

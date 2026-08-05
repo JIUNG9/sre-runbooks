@@ -1,6 +1,7 @@
 # Capacity Planning
 
 ## Load testing setup
+
 ```bash
 # k6 script skeleton
 import http from 'k6/http';
@@ -16,6 +17,7 @@ export let options = {
 ```
 
 ## Headroom formula
+
 ```
 Required capacity = peak_load × 1.5 (headroom) × 1.2 (growth)
 N+1 redundancy for stateful services
