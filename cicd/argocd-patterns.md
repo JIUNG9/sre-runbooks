@@ -1,6 +1,7 @@
 # ArgoCD Patterns
 
 ## ApplicationSet for multi-env
+
 ```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
@@ -24,16 +25,8 @@ spec:
 ```
 
 ## Sync waves
+
 - Wave 0: Namespaces, CRDs
 - Wave 1: ConfigMaps, Secrets
 - Wave 2: Deployments
 - Wave 3: Services, Ingress
-
-## Updated: production patterns
-- Note added 2026-02-20
-
-## Updated: troubleshooting steps
-- Note added 2026-03-01
-
-## cross-reference with AWS docs
-- Updated 2026-03-23

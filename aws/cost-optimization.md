@@ -1,6 +1,7 @@
 # AWS Cost Optimization Checklist
 
 ## Quick wins
+
 - [ ] Delete unattached EBS volumes
 - [ ] Remove unused Elastic IPs
 - [ ] Clean up old snapshots (>90d)
@@ -10,16 +11,8 @@
 - [ ] GP3 migration from GP2 (20% cheaper)
 
 ## Reserved/Savings Plans
+
 - Compute SP for flexible workloads
 - EC2 RI for stable baseline
 - RDS RI for production databases
 - 1-year no-upfront for flexibility
-
-## Updated: security hardening
-- Note added 2026-01-02
-
-## Updated: security hardening
-- Note added 2026-02-02
-
-## Updated: troubleshooting steps
-- Note added 2026-02-26

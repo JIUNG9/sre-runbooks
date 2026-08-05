@@ -13,6 +13,7 @@ moved {
 ```
 
 Benefits:
+
 - No state surgery needed
 - Plan shows move, not destroy+create
 - Remove moved block after apply

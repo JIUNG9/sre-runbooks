@@ -15,6 +15,7 @@ run "create_vpc" {
 ```
 
 ## Validation
+
 ```hcl
 variable "instance_type" {
   validation {
@@ -23,6 +24,3 @@ variable "instance_type" {
   }
 }
 ```
-
-## Updated: troubleshooting steps
-- Note added 2026-02-15

@@ -1,6 +1,7 @@
 # Multi-Stage Docker Builds
 
 ## Go example
+
 ```dockerfile
 # Build stage
 FROM golang:1.22-alpine AS builder
@@ -18,10 +19,8 @@ ENTRYPOINT ["/server"]
 ```
 
 ## Tips
+
 - Use distroless or scratch for minimal attack surface
 - Pin base image digests in production
 - Layer caching: copy dependency files first
 - Use .dockerignore aggressively
-
-## Updated: troubleshooting steps
-- Note added 2026-02-10

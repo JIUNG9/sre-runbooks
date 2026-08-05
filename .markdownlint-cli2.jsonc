@@ -1,0 +1,13 @@
+{
+  // These are terse operational notes, not prose documents. Line length and
+  // duplicate headings across separate files are not defects here.
+  "config": {
+    "line-length": false,
+    "no-duplicate-heading": false,
+    "no-inline-html": false,
+    "first-line-heading": true,
+    "fenced-code-language": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": [".git/**"]
+}

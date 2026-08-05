@@ -13,15 +13,7 @@ topologySpreadConstraints:
 ```
 
 ## Taint/Toleration for dedicated nodes
+
 ```bash
 kubectl taint nodes gpu-node-1 gpu=true:NoSchedule
 ```
-
-## Updated: production patterns
-- Note added 2026-01-02
-
-## Updated: troubleshooting steps
-- Note added 2026-01-15
-
-## Updated: security hardening
-- Note added 2026-02-18

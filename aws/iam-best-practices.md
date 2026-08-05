@@ -1,6 +1,7 @@
 # IAM Best Practices
 
 ## Least privilege pattern
+
 ```json
 {
   "Version": "2012-10-17",
@@ -24,6 +25,7 @@
 ```
 
 ## Key rules
+
 1. No inline policies — use managed policies
 2. Require MFA for all human users
 3. Use OIDC federation for CI/CD (no long-lived keys)
