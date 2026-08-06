@@ -1,26 +1,57 @@
 # sre-runbooks
 
-Runbooks and reference notes for SRE/DevOps/Platform Engineering — the things worth
-writing down after you've debugged them once.
+Reference notes for SRE / DevOps / platform work — the things worth writing down after
+you've debugged them once.
 
-Renamed from `sre-lab` on 2026-08-04. GitHub redirects the old URL, so existing links
-still work.
+[![CI](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![notes](https://img.shields.io/badge/notes-35%20files-1a8917)](#whats-here)
 
-## Topics
+## What this is, and what it isn't
 
-- **kubernetes/** — Network policies, HPA tuning, RBAC, troubleshooting
-- **terraform/** — State management, module patterns, testing, drift detection
-- **sre/** — SLO framework, incident management, capacity planning, toil reduction
-- **aws/** — Cost optimization, IAM, RDS maintenance, Transit Gateway
-- **cicd/** — GitHub Actions, ArgoCD, pipeline security
-- **postgres/** — Query optimization, vacuum tuning, replication
-- **docker/** — Multi-stage builds, security scanning
-- **linux/** — Performance debugging, systemd patterns
+**It is** a set of terse, working notes: the command that actually diagnosed the
+problem, the parameter that turned out to matter, the failure mode that wasn't
+obvious. Written for someone who already knows the tool and needs the specific thing.
 
-## Usage
+**It isn't** tutorials, and it isn't comprehensive. Each file is short on purpose. If a
+topic isn't here it's because I haven't hit it in production, not because it's
+unimportant.
 
-These are my personal reference notes from production experience. Not meant as tutorials — more like quick-reference cheatsheets for things I've actually dealt with.
+Every hostname and URL in these notes is a placeholder — `{{service}}`,
+`github.com/org/module`, `etcd-0:2379`. Nothing resolves anywhere.
+
+## What's here
+
+| Directory | Notes on |
+| --- | --- |
+| `kubernetes/` | DNS troubleshooting (ndots, CoreDNS, NodeLocalDNS), network policies, HPA tuning, RBAC |
+| `terraform/` | State management and isolation, module patterns, `moved` blocks, import workflow, drift detection, testing |
+| `sre/` | SLO framework, error budgets, observability stack, incident management, capacity planning, toil reduction, a runbook template |
+| `aws/` | Cost optimization, IAM practices, RDS maintenance, Transit Gateway, secrets management |
+| `cicd/` | GitHub Actions patterns, ArgoCD patterns, pipeline security |
+| `postgres/` | Query optimization, vacuum tuning, replication |
+| `docker/` | Multi-stage builds, security scanning |
+| `linux/` | Performance debugging, systemd patterns |
+
+Start with [`sre/runbook-template.md`](sre/runbook-template.md) if you want the shape
+I use for a new runbook: overview, diagnosis, mitigation, escalation.
+
+## Contributing
+
+Corrections are genuinely welcome — a flag that changed, an API that was deprecated,
+or a better approach than the one written down. Open an issue or a PR.
+
+If you find guidance here that would actually be *dangerous* to follow — destroys data,
+widens access, takes a service down without warning — please read
+[SECURITY.md](SECURITY.md) first; that one goes through a private channel.
+
+CI runs markdownlint on every file. `npx markdownlint-cli2 "**/*.md"` reproduces it.
+
+## History
+
+Renamed from `sre-lab` on 2026-08-04 — "lab" suggested runnable code, and this is
+written notes. GitHub redirects the old URL, so existing links still work.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
