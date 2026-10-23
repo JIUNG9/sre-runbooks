@@ -5,7 +5,7 @@ you've debugged them once.
 
 [![CI](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![notes](https://img.shields.io/badge/notes-35%20files-1a8917)](#whats-here)
+[![notes](https://img.shields.io/badge/notes-36%20files-1a8917)](#whats-here)
 
 ## What this is, and what it isn't
 
@@ -24,7 +24,7 @@ Every hostname and URL in these notes is a placeholder — `{{service}}`,
 
 | Directory | Notes on |
 | --- | --- |
-| `kubernetes/` | DNS troubleshooting (ndots, CoreDNS, NodeLocalDNS), network policies, HPA tuning, RBAC |
+| `kubernetes/` | DNS troubleshooting (ndots, CoreDNS, NodeLocalDNS), OOMKilled vs eviction, network policies, HPA tuning, RBAC |
 | `terraform/` | State management and isolation, module patterns, `moved` blocks, import workflow, drift detection, testing |
 | `sre/` | SLO framework, error budgets, observability stack, incident management, capacity planning, toil reduction, a runbook template |
 | `aws/` | Cost optimization, IAM practices, RDS maintenance, Transit Gateway, secrets management |
