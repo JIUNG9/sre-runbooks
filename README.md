@@ -5,7 +5,7 @@ you've debugged them once.
 
 [![CI](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/JIUNG9/sre-runbooks/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![notes](https://img.shields.io/badge/notes-37%20files-1a8917)](#whats-here)
+[![notes](https://img.shields.io/badge/notes-38%20files-1a8917)](#whats-here)
 
 ## What this is, and what it isn't
 
@@ -31,7 +31,7 @@ Every hostname and URL in these notes is a placeholder — `{{service}}`,
 | `cicd/` | GitHub Actions patterns, ArgoCD patterns, pipeline security |
 | `postgres/` | Query optimization, vacuum tuning, replication, connection pooling |
 | `docker/` | Multi-stage builds, security scanning |
-| `linux/` | Performance debugging, systemd patterns |
+| `linux/` | Performance debugging, systemd patterns, disk and inode exhaustion |
 
 Start with [`sre/runbook-template.md`](sre/runbook-template.md) if you want the shape
 I use for a new runbook: overview, diagnosis, mitigation, escalation.
